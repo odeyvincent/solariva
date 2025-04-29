@@ -55,7 +55,7 @@ nav ul li a:hover{
     cursor: pointer;
     font-size: 20px;
 }
-section{
+.hero{
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./solar.png');
     background-size: cover;
@@ -95,6 +95,10 @@ section{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 20px;
     margin: 0;
+}
+.visible{
+    display: block;
+    direction: column;
 }
 
 
