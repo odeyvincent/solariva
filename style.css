@@ -107,11 +107,11 @@ nav ul li a:hover{
     nav ul, .sign button{
         display: none;
         position: fixed;
-        top: 70px;
+        top: 60px;
         left: 0;
-        background: white;
+        background-color: #F9F9F9;
         width: 100vw;
-        padding: 15px 20px;
+        padding: 5px 20px 10px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         transform: translateX(0);
         transition: all 1s ease-in-out;
