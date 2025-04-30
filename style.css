@@ -99,12 +99,25 @@ nav ul li a:hover{
 .visible{
     display: block;
     direction: column;
+    margin-top:5px ;
 }
 
 
 @media screen and (max-width: 968px) {
     nav ul, .sign button{
         display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        background: white;
+        width: 100vw;
+        padding: 15px 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        transform: translateX(0);
+        transition: all 1s ease-in-out;
+    }
+    nav ul li{
+        padding-top: 7px;
     }
     .bar{
         display: block;
